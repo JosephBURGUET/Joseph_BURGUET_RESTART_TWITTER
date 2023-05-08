@@ -1,0 +1,28 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 250px auto;
+    height: 100vh;
+}
+
+body > * {
+    min-height: 100vh;
+}
+
+main {
+    background-color: #ebebeb;
+}
+
+.recherche{
+    text-align: center;
+}
+
+
+
